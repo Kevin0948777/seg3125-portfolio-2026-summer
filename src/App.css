@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #111827;
+  color: #f9fafb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  position: sticky;
+  top: 0;
+  background: #111827;
+  z-index: 100;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #60a5fa;
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  padding: 90px 20px 80px;
+}
+
+.hero h1 {
+  font-size: 72px;
+  margin: 0;
+  line-height: 1;
+}
+
+.hero p {
+  font-size: 24px;
+  color: #93c5fd;
+  margin-top: 16px;
+}
+
+/* SECTIONS */
+
+.section {
+  margin-bottom: 70px;
+}
+
+.section h2 {
+  font-size: 48px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.section p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #d1d5db;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 24px;
+}
+
+/* PROJECTS */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 36px;
+  padding-bottom: 60px;
+}
+
+.card {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 18px;
+  padding: 28px 22px;
+  transition: 0.25s;
+  min-height: 220px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #60a5fa;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.card p {
+  color: #93c5fd;
+  margin: 16px 0;
+  text-align: left;
+}
+
+.card span {
+  display: inline-block;
+  margin-top: 12px;
+  color: #fbbf24;
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  padding: 48px 0;
+  color: #9ca3af;
+}
+
+/* TABLET */
+
+@media (max-width: 1000px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .section h2 {
+    font-size: 36px;
+  }
+
+  .section p {
+    font-size: 18px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
