@@ -3,8 +3,10 @@ import "./App.css";
 function App() {
   return (
     <main className="portfolio">
+      {/* NAVBAR */}
+
       <nav className="navbar">
-        <h3 className="logo">Kai Wen Yuan</h3>
+        <h3 className="logo">Kevin Yuan</h3>
 
         <div className="nav-links">
           <a href="#about">About</a>
@@ -13,14 +15,18 @@ function App() {
         </div>
       </nav>
 
-      <section className="hero">
-        <p className="hero-tag">UI/UX DESIGN • FRONTEND DEVELOPMENT</p>
+      {/* HERO */}
 
-        <h1>Kai Wen Yuan</h1>
+      <section className="hero">
+        <p className="hero-tag">
+          UI/UX DESIGN • FRONTEND DEVELOPMENT
+        </p>
+
+        <h1>Kevin Yuan</h1>
 
         <p className="hero-text">
-          Designing modern interfaces focused on clarity, usability, and visual
-          communication.
+          Designing modern interfaces focused on clarity,
+          usability, and visual communication.
         </p>
 
         <div className="hero-buttons">
@@ -34,41 +40,53 @@ function App() {
         </div>
       </section>
 
-      <section className="section" id="about">
-        <h2>About Me</h2>
+      {/* ABOUT */}
 
-        <p>
-          I am a student at the University of Ottawa currently learning UI/UX
-          design, frontend development, and visual communication principles.
-        </p>
+      <section className="intro-card" id="about">
+        <div className="intro-text full-width">
+          <h2>About Me</h2>
 
-        <p>
-          My goal is to create interfaces that are visually organized,
-          user-friendly, and responsive while continuing to improve my web
-          development skills.
-        </p>
+          <p>
+            I am a UI/UX and frontend development student at
+            the University of Ottawa currently learning visual
+            communication, React, HTML, CSS, JavaScript, and
+            user interface design principles through SEG3125.
+          </p>
+        </div>
       </section>
 
-      <section className="section" id="work">
+      {/* HOW I WORK */}
+
+<section className="section" id="work">
   <h2>How I Work</h2>
 
   <p>
-    I am currently learning UI/UX design, frontend development, and visual
-    communication as part of SEG3125 at the University of Ottawa.
+    I am currently taking SEG3125 at the University of
+    Ottawa, where I am learning UI/UX design principles,
+    visual communication, and frontend development.
   </p>
 
   <p>
-    Through this course I am exploring HTML, CSS, JavaScript, React, and
-    Bootstrap while learning how layout, typography, color, and visual
-    hierarchy affect user experience.
+    Through this course, I am exploring how typography,
+    color, spacing, and responsive design affect user
+    experience while continuing to improve my web
+    development skills.
   </p>
 
   <p>
-    As I continue developing my skills, I aim to create interfaces that are
-    visually organized, responsive, and user-friendly while applying
-    user-centered design principles into future projects.
+    Reference:
+    <a
+      href="https://www.nngroup.com/"
+      target="_blank"
+      rel="noreferrer"
+      className="reference-link"
+    >
+      Nielsen Norman Group (NN/g)
+    </a>
   </p>
 </section>
+
+      {/* PROJECTS */}
 
       <section className="section" id="projects">
         <h2>Projects</h2>
@@ -124,8 +142,10 @@ function App() {
         </div>
       </section>
 
+      {/* FOOTER */}
+
       <footer className="footer">
-        <p>© 2026 Kai Wen Yuan Portfolio</p>
+        <p>© 2026 Kevin Yuan Portfolio</p>
       </footer>
     </main>
   );
