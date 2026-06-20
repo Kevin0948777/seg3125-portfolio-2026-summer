@@ -92,54 +92,64 @@ function App() {
         <h2>Projects</h2>
 
         <div className="project-grid">
-          <div className="card">
-            <div className="icon-circle">
-              <i className="ti ti-world"></i>
-            </div>
+  <div className="card">
+    <div className="icon-circle">
+      <i className="ti ti-world"></i>
+    </div>
 
-            <h3>Service Website</h3>
+    <h3>Bidoof Dental</h3>
+    <p>Assignment 2</p>
 
-            <p>Design 1</p>
+    <a
+      href="https://bidoofsmliedental.netlify.app/"
+      target="_blank"
+      rel="noreferrer"
+      className="project-link"
+    >
+      View Project
+    </a>
+  </div>
 
-            <span>Coming Soon</span>
-          </div>
+  <div className="card">
+    <div className="icon-circle">
+      <i className="ti ti-device-gamepad-2"></i>
+    </div>
 
-          <div className="card">
-            <div className="icon-circle">
-              <i className="ti ti-device-gamepad-2"></i>
-            </div>
+    <h3>Pokémon Memory Match</h3>
+    <p>Assignment 3</p>
 
-            <h3>Memory Game</h3>
+    <a
+      href="https://memorymatchch.netlify.app/"
+      target="_blank"
+      rel="noreferrer"
+      className="project-link"
+    >
+      View Project
+    </a>
+  </div>
 
-            <p>Design 2</p>
+  <div className="card">
+    <div className="icon-circle">
+      <i className="ti ti-shopping-cart"></i>
+    </div>
 
-            <span>Coming Soon</span>
-          </div>
+    <h3>E-Commerce Site</h3>
+    <p>Future Project</p>
 
-          <div className="card">
-            <div className="icon-circle">
-              <i className="ti ti-shopping-cart"></i>
-            </div>
+    <span>Coming Soon</span>
+  </div>
 
-            <h3>E-Commerce Site</h3>
+  <div className="card">
+    <div className="icon-circle">
+      <i className="ti ti-chart-bar"></i>
+    </div>
 
-            <p>Design 3</p>
+    <h3>Analytics Dashboard</h3>
+    <p>Future Project</p>
 
-            <span>Coming Soon</span>
-          </div>
-
-          <div className="card">
-            <div className="icon-circle">
-              <i className="ti ti-chart-bar"></i>
-            </div>
-
-            <h3>Analytics Dashboard</h3>
-
-            <p>Design 4</p>
-
-            <span>Coming Soon</span>
-          </div>
-        </div>
+    <span>Coming Soon</span>
+  </div>
+</div>
       </section>
 
       {/* FOOTER */}
