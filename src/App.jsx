@@ -129,15 +129,23 @@ function App() {
   </div>
 
   <div className="card">
-    <div className="icon-circle">
-      <i className="ti ti-shopping-cart"></i>
-    </div>
-
-    <h3>E-Commerce Site</h3>
-    <p>Future Project</p>
-
-    <span>Coming Soon</span>
+  <div className="icon-circle">
+    <i className="ti ti-shopping-cart"></i>
   </div>
+
+  <h3>PawMart Pet Supplies</h3>
+
+  <p>Assignment 4</p>
+
+  <a
+    href="https://pawmartpet.netlify.app/"
+    target="_blank"
+    rel="noreferrer"
+    className="project-link"
+  >
+    View Project
+  </a>
+</div>
 
   <div className="card">
     <div className="icon-circle">
