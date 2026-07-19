@@ -94,7 +94,7 @@ function App() {
         <div className="project-grid">
   <div className="card">
     <div className="icon-circle">
-      <i className="ti ti-world"></i>
+      <i className="ti ti-first-aid-kit"></i>
     </div>
 
     <h3>Bidoof Dental</h3>
@@ -152,10 +152,17 @@ function App() {
       <i className="ti ti-chart-bar"></i>
     </div>
 
-    <h3>Analytics Dashboard</h3>
-    <p>Future Project</p>
+    <span><h3>Canadian University Enrolment Dashboard</h3>
+<p>Assignment 5</p>
 
-    <span>Coming Soon</span>
+<a
+  href="https://unienrollmentdashboard.netlify.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="project-link"
+>
+  View Project
+</a></span>
   </div>
 </div>
       </section>
