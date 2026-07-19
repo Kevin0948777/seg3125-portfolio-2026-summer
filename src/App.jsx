@@ -2,8 +2,8 @@ import "./App.css";
 
 import dentalIcon from "./assets/bidoof.png";
 import memoryIcon from "./assets/pokeball.png";
-import pawmartIcon from "./assets/paw.png";
-import dashboardIcon from "./assets/university.png";
+import pawmartIcon from "./assets/Paw.png";
+import dashboardIcon from "./assets/University.png";
 
 function App() {
   return (
