@@ -1,5 +1,10 @@
 import "./App.css";
 
+import dentalIcon from "./assets/bidoof.png";
+import memoryIcon from "./assets/pokeball.png";
+import pawmartIcon from "./assets/paw.png";
+import dashboardIcon from "./assets/university.png";
+
 function App() {
   return (
     <main className="portfolio">
@@ -94,7 +99,7 @@ function App() {
         <div className="project-grid">
   <div className="card">
     <div className="icon-circle">
-      <i className="ti ti-first-aid-kit"></i>
+      < img src={dentalIcon} alt="Dental project icon"/>
     </div>
 
     <h3>Bidoof Dental</h3>
@@ -112,7 +117,7 @@ function App() {
 
   <div className="card">
     <div className="icon-circle">
-      <i className="ti ti-device-gamepad-2"></i>
+      <img src={memoryIcon} alt="Memory game project icon" />
     </div>
 
     <h3>Pokémon Memory Match</h3>
@@ -130,7 +135,7 @@ function App() {
 
   <div className="card">
   <div className="icon-circle">
-    <i className="ti ti-shopping-cart"></i>
+    <img src={pawmartIcon} alt="Pet store project icon" />
   </div>
 
   <h3>PawMart Pet Supplies</h3>
@@ -149,7 +154,7 @@ function App() {
 
   <div className="card">
     <div className="icon-circle">
-      <i className="ti ti-chart-bar"></i>
+      <img src={dashboardIcon} alt="Dashboard project icon" />
     </div>
 
     <span><h3>Canadian University Enrolment Dashboard</h3>
